@@ -1,0 +1,2180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>THE HOME</title>
+	<style>
+    #header-nav{
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand{
+  padding-top: 25px;
+}
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+
+}
+.navbar-brand p{
+  color: red;
+  text-transform: uppercase;
+  font-size: .9em;
+  margin-top: 15px;
+  vertical-align: middle;
+}
+
+#menu-title,#special-title,#map-title, #Nonvej-title ,#vej-title ,#Ice-Cream-title{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid black;
+  overflow: hidden;
+}
+#menu-title:hover,#special-title:hover,#map-title:hover, #Nonvej-title:hover ,#vej-title:hover ,#Ice-Cream-title:hover {
+
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-title span,#special-title span,#map-title span, #Nonvej-title span ,#vej-title span,#Ice-Cream-title span{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+
+		body{
+	font-size: 16px;
+	color: #fff;
+	background-color: red;
+	background-image: url("https://scontent.fccu2-1.fna.fbcdn.net/v/t1.0-0/p180x540/106992921_2676307099303332_5791414243118420558_o.jpg?_nc_cat=110&_nc_sid=730e14&_nc_ohc=zUmWBC7P1vYAX8wxuUm&_nc_ht=scontent.fccu2-1.fna&_nc_tp=6&oh=a928511108e5e41616b32c177bfc1e1a&oe=5F343F6A");
+  background-repeat: no-repeat;
+  background-size: cover;
+	font-family: 'Oxygen', sans-serif;
+}
+#logo-img{
+	background: url('https://scontent.fpat1-1.fna.fbcdn.net/v/t1.0-9/cp0/107898478_2676304362636939_1133172957673708435_n.jpg?_nc_cat=106&_nc_sid=730e14&_nc_ohc=WZzwBHIpsqUAX_qFpRg&_nc_ht=scontent.fpat1-1.fna&oh=8d080cdc7ac21687e806207df894be3e&oe=5F3553ED') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin:10px 15px 10px 0; 
+}
+    .container{
+      position: relative;
+    }
+    .topright{
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      font-size: 18px;
+    }
+    .outpopup{
+        position: absolute;
+        width: 400px;
+        z-index: 15;
+        top: 100%;
+        left: 50%;
+        margin: -100px 0 0 -150px;
+        background: red;
+      }
+      .out{
+        position: relative;
+        width: 5px;
+        z-index: 10;
+        top: 200%;
+        left: 50%;
+        margin: -100px 0 0 -100px;
+        background: red;
+      }
+      
+      .out1{
+        position:relative;
+        width: 5px;
+        z-index: 10;
+        left: 40%;
+        top: 200%;
+        margin: -100px 0 0 -100px;
+        background: red;
+    }
+     .out12{
+        position:absolute;
+        width: 5px;
+        z-index: 10;
+        left: 80%;
+        top:450%;
+        margin: -100px 0 0 -100px;
+        background: red;
+    }
+     #menu-title{
+     	background: url(https://i.ytimg.com/vi/Xn43wrcX90Y/maxresdefault.jpg) no-repeat;
+     	background-position: center;
+     	background-size: 400px 250px;
+     }
+     #Nonvej-title{
+     	background: url(http://www.africanbites.com/wp-content/uploads/2013/11/IMG_8471.jpg) no-repeat;
+     	background-position: center;
+     	background-size: 400px 250px;
+     }
+     #vej-title{
+     	background: url(http://www.indiansimmer.com/wp-content/uploads/2016/10/paneer-butter-masala.jpg) no-repeat;
+     	background-position: center;
+     	background-size: 400px 250px;
+     }
+      #special-title{
+     	background: url(https://i.pinimg.com/originals/30/28/58/302858218a90d08c9eb97cabf09f4691.jpg) no-repeat;
+     	background-position: center;
+     	background-size: 400px 250px;
+     }
+      #Ice-Cream-title{
+     	background: url(https://cdn.theculturetrip.com/wp-content/uploads/2015/06/ice-cream2-pixabay.jpg
+     		) no-repeat;
+     	background-position: center;
+     	background-size: 400px 250px;
+     }
+     
+     
+     
+     
+  </style>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+     <nav id="header-nav" class="navbar navbar-default">
+       <div class="container">
+       	<div class="navbar-header">
+       	<a href="the home.html" class="float-left d-none d-md-block ">
+       	<div id="logo-img" alt="Logo image"></div>
+       </a>
+
+       <div class="navbar-brand">
+       	<a href="the home.html"> <h1>THE HOME</h1></a>
+       	<p>
+       		<img src="https://scontent.fpat1-1.fna.fbcdn.net/v/t1.0-9/cp0/108207987_2676305685970140_4192912288136955359_n.jpg?_nc_cat=105&_nc_sid=730e14&_nc_ohc=uqjSJNVsvVoAX9wrGYT&_nc_ht=scontent.fpat1-1.fna&oh=9dc8e5091b55a49c621257960d620f5d&oe=5F351D6F"alt="Kosher certification">
+       		<span>kosher certification</span>
+       	</p>
+       </div >
+        
+        <div class="dropdown dropright float-right  d-md-block d-lg-none d-xl-none">
+        	<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        		Menu
+        	</button>
+        	<div class="dropdown-menu">
+        		<i class="fas fa-bars"><a class="dropdown-item text-danger" href="#">Home</a></i>
+        		<i class="fas fa-egg"><a class="dropdown-item text-danger" href="#">Nonvej</a></i>
+        		<i class="fas fa-ice-cream"><a class="dropdown-item text-danger" href="#">Ice-Cream</a></i>
+        		<i class="fas fa-pepper-hot"><a class="dropdown-item text-danger" href="#">Vej</a></i>
+        		<i class="fas fa-heart"><a class="dropdown-item text-danger" href="#">Special Item </a></i>
+        		<i class="fas fa-fighter-jet"><a class="dropdown-item text-danger" href="#">Map</a></i>
+        		
+        	</div>
+        </div>
+        <div class="topright d-none d-sm-none d-lg-block d-md-none d-xl-block">
+       	<i class="fas fa-bars"><a href="the home.html" class="float-right text-danger">Home</a></i>
+                <i class="  fas fa-egg"><a href="#" class="float-right text-danger ">Nonvej Item</a></i>
+                <i class="  fas fa-pepper-hot"><a href="#" class="float-right text-danger">Vej</a></i>
+                        <i class="fas fa-ice-cream"><a href="#" class="float-right text-danger">Ice-Cream</a></i>
+                                <i class="fas fa-heart"><a href="#" class="float-right text-danger">Special Item</a></i>
+                                        <i class="fas fa-fighter-jet"><a href="#" class="float-right text-danger">Map</a></i>
+                                         <i  class="text-danger out1"><a href="#">8660308645</a> </i>
+                                      </div>
+
+       	      <i class="form-group outpopup d-none d-sm-none d-lg-block d-md-none d-xl-block">
+  <input class="form-control rounded-0 text-danger py-2" type="search" value="search" id="example-search-input">
+</i>
+
+<div>
+
+<i class="form-group d-none d-sm-none d-md-block d-lg-none d-xl-none ">
+  <input class="form-control out rounded-0 text-danger py-2" type="search" value="search" id="example-search-input">
+  <p> <i  class="text-danger out"><a href="#">Contact No-8660308645</a></i></p>
+</i>
+</div>
+<div>
+
+<i class="form-group   d-block d-sm-block d-lg-none d-xl-none d-md-none ">
+  <input class="form-control  rounded-0 text-danger py-2" type="search" value="search" id="example-search-input">
+</i>
+</div>
+
+
+</div>
+
+</nav>
+<section class="bg-primary">
+  <div class="container-fluid">
+    <h1 class="text-center text-capitalize pt-5">Nonvej Item</h1>
+    <hr class="w-25 mx-auto pt-5">
+<div class="row text-center mb-5">
+  <div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/dcfkmy5Nyp0/maxresdefault.jpg" alt="Card image">
+  <div class="card-body">
+    <h4 class="card-title">Chicken 65</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mptE5U-h_Xc/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Manchurian</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/O0uYQKAzmBU/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Fry</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/JWy6pSL0Wew/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Masala</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/O0uYQKAzmBU/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Crispy Fried Chicken</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/eYRHCL93_fY/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Butter Chicken</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/a2C89az8Ln8/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Tandoori Chicken</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/Om2pS7g4Bcs/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Ginger Chicken</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/gBQjl4QyVZI/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Fish Masala</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://tse4.mm.bing.net/th?id=OIP.VC48-4Z6KLoEtfrEDgA9dQHaEK&pid=Api&P=0&w=275&h=156">
+  <div class="card-body">
+    <h4 class="card-title">Fish fry</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/Z_9QyBIESDQ/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Fish Roast</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/wTbPb0SC1V4/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Mutton Masala</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/E0CVFaQNFJ0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Punjabi Mutton Curry</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="col-lg-4 col-md-4 col-12">
+    <div class="card" style="width: 400px height 400px">
+  <img class="card-img-top" src="https://i.ytimg.com/vi/mCw6oeNSdk0/maxresdefault.jpg">
+  <div class="card-body">
+    <h4 class="card-title">Chicken Lollipops</h4>
+      <button class="btn btn-warning"data-toggle="modal" data-target="#myModal">Order Now</button>
+    </div>
+    <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">order now</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+    <div class="form-group">
+      <label for="email">Address:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter Address" name="email" autocomplete="off">
+    </div>
+    <div class="form-group">
+      <label for="pwd">mobile no:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter mobile no" name="pswd">
+    </div>
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember"> !contact us
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+</div>
+
+</section>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
